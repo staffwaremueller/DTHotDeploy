@@ -1,0 +1,14 @@
+/**
+ * @description 
+ */
+virtual void rulefunction RuleFunctions.vrf_testDT {
+	attribute {
+		validity = ACTION;
+	}
+	scope {
+		Concepts.cpTest cp;
+	}
+	body {
+		
+	}
+}

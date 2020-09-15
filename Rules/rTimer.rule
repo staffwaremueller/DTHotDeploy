@@ -1,0 +1,25 @@
+/**
+ * @description 
+ * @author NBUlf
+ */
+rule Rules.rTimer {
+	attribute {
+		priority = 5;
+		forwardChain = true;
+	}
+	declare {
+		Events.eTimer ev;
+	}
+	when {
+		
+	}
+	then {
+		System.debugOut("### in rTimer()");
+		Concepts.cpTest cp= Concepts.cpTest.cpTest(null,"test","test2",null);
+		RuleFunctions.vrf_testDT(cp);
+		
+		System.debugOut("#### return  DT serialized concept: " + Instance.serializeUsingDefaults(cp));
+		
+		Instance.deleteInstance(cp);
+	}
+}

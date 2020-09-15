@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element:Concept xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:element="http:///com/tibco/cep/designtime/core/model/element" namespace="/Concepts/" folder="/Concepts/" name="cpTest" description="" GUID="B94A9E44-CF69-9FB7-5770-2BBE4F32C67C" ownerProjectName="DTHotDeploy" superConceptPath="" autoStartStateMachine="true">
+  <extendedProperties/>
+  <properties name="p1" ownerProjectName="DTHotDeploy" ownerPath="/Concepts/cpTest"/>
+  <properties name="p2" ownerProjectName="DTHotDeploy" ownerPath="/Concepts/cpTest"/>
+  <properties name="preturn" ownerProjectName="DTHotDeploy" ownerPath="/Concepts/cpTest"/>
+</element:Concept>
